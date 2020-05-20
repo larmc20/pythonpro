@@ -1,6 +1,7 @@
 # pythonpro
 Exercícios do curso python pro
 
+[![Build Status](https://travis-ci.com/larmc20/pythonpro.svg?branch=master)](https://travis-ci.com/larmc20/pythonpro)
 
 Para Instalar:
 
