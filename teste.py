@@ -1,13 +1,15 @@
 import requests
 
-'''
-TESTE:
-    >>> <Response [200]>
-'''
 
 def teste():
+    '''#Teste da funcao
+    >>> teste()
+    <Response [2]>
+    '''
     r = requests.get('http://google.com')
     print(r)
 
+
 if __name__ == "__main__":
-    teste()
+    import doctest
+    doctest.testmod()
